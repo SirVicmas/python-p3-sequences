@@ -2,9 +2,9 @@
 
 def print_fibonacci(length):
     sequence = []
-    if length > 0 and length < 2:
+    if length > 0:
         sequence.append(0)
-    if length > 1  and length < 3:
+    if length > 1:
         sequence.append(1)
 
     while len(sequence) < length:
@@ -14,7 +14,7 @@ def print_fibonacci(length):
     return sequence  # Return the complete sequence
 
 
-result = print_fibonacci(0)
+result = print_fibonacci(8)
 print(result)
 
 
